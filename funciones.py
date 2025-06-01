@@ -14,4 +14,6 @@ def valores():
     while num1 != 0:
         num1 = int(input("Ingrese los valores (0 para salir): "))
         return num1
-    
+
+def resultados(resultado):
+    return print(f"El resultadod es: {resultado}")
